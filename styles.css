@@ -1,0 +1,82 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: #333;
+  display: flex; 
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.nav ul{
+
+  list-style: none;      
+  padding-top: 7%;
+  padding-right: 10% ;
+  margin: 0;
+  display: flex;        
+  gap: 20px;
+  
+}
+
+section {
+  padding: 2rem;
+}
+
+.main {
+background-color: #777;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+input ,textarea {
+
+  background-color: #888;
+}
+button {
+  color: #666;              
+  background-color: white;  
+  border: 2px solid #666;   
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+button:hover {
+  background-color: #666;
+  color: white;            
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 13px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 0rem;
+}
